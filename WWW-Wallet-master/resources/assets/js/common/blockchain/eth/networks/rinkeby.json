@@ -1,0 +1,26 @@
+{
+  "chainName": "Rinkeby",
+  "chainId": 4,
+  "averageBlockTime": 6000,
+  "requiredConfirmation": 3,
+  "startCrawlBlock": 2150000,
+  "explorerEndpoint": "https://rinkeby.etherscan.io",
+  "web3ProviderEnpoint": "https://rinkeby.infura.io",
+  "eventTopics": {
+    "erc20Transfer": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+  },
+  "tokens": [
+    {
+      "symbol": "eth",
+      "name": "Ethereum",
+      "decimal": 18,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+      "symbol": "www",
+      "name": "WinWinWin Test",
+      "decimal": 9,
+      "address": "0xf3cadf8478f3bb853d460fc1c6689c0e085bf795"
+    }
+  ]
+}

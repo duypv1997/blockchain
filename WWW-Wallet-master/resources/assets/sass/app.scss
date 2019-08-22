@@ -1,0 +1,153 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+@import "header";
+@import "auth";
+@import "noAccount";
+
+html, body {
+  height: 100%;
+  background-color: #f2f4f7;
+}
+#app {
+  min-width: $webMinWidth;
+
+  .wrap {
+    background-color: $white;
+    width: $webWidthContent;
+    margin: 70px auto 25px;
+    box-shadow: 1px 1px 3px #808080;
+    height: calc(100vh - #{$webHeightHeader} - 40px);
+    min-height: $webMinHeight;
+    overflow: auto;
+    main {
+      height: calc(100vh - #{$webHeightHeader} - 40px);
+      min-height: 100%;
+      overflow-y: auto;
+      .header_container {
+        text-align: center;
+        margin-top: 100px;
+        .img_coin {
+          width: 40px;
+          height: 40px;
+        }
+
+        .txt_biko {
+          font-weight: bold;
+          font-size: 2.5rem;
+        }
+
+        .txt_wallet {
+          font-weight: bold;
+          font-size: 1rem;
+        }
+      }
+      .icon-login {
+          margin-top: 170px;
+          width: 100%;
+          height: 3.2rem;
+          background-image: url("/images/coin_icon.png");
+          background-repeat: no-repeat;
+          background-size: auto 100%;
+          background-position: center;
+        }
+
+        .biko-login {
+          color: $text_light_black;
+          width: 100%;
+          text-align: center;
+          font-weight: bold;
+          font-size: 3rem;
+          margin-bottom: 0px;
+          font-family: $font-family-open-sans;
+        }
+
+        .title-login {
+          color: $text_light_black;
+          width: 100%;
+          text-align: center;
+          font-weight: bold;
+          font-size: 1.5rem;
+          margin-top: -0.7rem;
+          font-family: $font-family-open-sans;
+        }
+    }
+
+    .icon-login {
+      margin-top: 170px;
+      width: 100%;
+      height: 3.2rem;
+      background-image: url("/images/coin_icon.png");
+      background-repeat: no-repeat;
+      background-size: auto 100%;
+      background-position: center;
+    }
+
+    .biko-login {
+      color: $text_light_black;
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+      font-size: 3rem;
+      margin-bottom: 0px;
+      font-family: $font-family-open-sans;
+    }
+
+    .title-login {
+      color: $text_light_black;
+      width: 100%;
+      text-align: center;
+      font-weight: bold;
+      font-size: 1.8rem;
+      margin-top: -0.7rem;
+      margin-bottom: 7.1rem;
+      font-family: $font-family-open-sans;
+    }
+
+    .pagination {
+      justify-content: center;
+      margin: 2rem 0;
+      height: 30px;
+      font-family: $font-family-open-sans;
+      li.pagination-page {
+        width: 30px;
+        margin: 0 5px;
+        text-align: center;
+        cursor: pointer;
+        &.active {
+          a {
+            color: #ffc000;
+          }
+        }
+        a {
+          color: #4c4c4c;
+          font-size: 1rem;
+          text-decoration: none;
+        }
+      }
+      .pagination-prev,
+      .pagination-next {
+        a {
+          color: #4c4c4c;
+          text-decoration: none;
+          font-size: 1rem
+        }
+      }
+    }
+  }
+  .ep-key {
+    width: 400px;
+    margin: 30px auto 0;
+    text-align: center;
+    .email {
+      margin-top: -70px;
+      margin-bottom: 40px;
+    }
+  }
+}

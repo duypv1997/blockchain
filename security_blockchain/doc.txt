@@ -1,0 +1,25 @@
+Solidity Behaviors and Issues
+
+- Int overflow/underflow
+- Incomplete initialization
+- Uninitialized variables
+- Callbacks / re-entrancy
+- Variable name shadowing
+- Type inference (var)
+- Unintentional visibility
+- Array.length
+- Delegatecall
+- Division by zero
+- Race conditions
+- Replay attacks
+- Bad RNG
+- Time sensitivity
+- Blockchain as random
+
+
+
+
+-Reentrancy Vulnerability.
+- Timestamp Dependence
+- Call Stack Depth Vulnerability
+- Parity Multisig Bug

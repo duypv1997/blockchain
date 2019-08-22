@@ -1,0 +1,115 @@
+header#header {
+  position: fixed;
+  top: 0px;
+  background-color: $bg_blue_gray;
+  width: 100%;
+  min-width: $webMinWidth;
+  height: $webHeightHeader;
+  padding-right: 20px;
+
+  .icon {
+    width: 35px;
+    height: 35px;
+    margin: 10px 0 0 20px;
+    float: left;
+    background-image: url("/images/coin_icon.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: center;
+  }
+  .biko-header {
+    float: left;
+    margin: 11px 0 0 10px;
+    font-size: 1.4rem;
+    color: #fff;
+    font-weight: bold;
+    font-family: $font-family-open-sans;
+  }
+
+  .width-content {
+    width: 550px;
+    margin: auto;
+  }
+
+  ul {
+    padding: 22px 0 0;
+    display: flex;
+    list-style-type: none;
+
+    li {
+      width: 25%;
+      font-family: $font-family-open-sans;
+      text-align: center;
+      font-size: 0.96rem;
+      height: 15px;
+      border-left: 1px solid $white;
+      line-height: 15px;
+
+      a {
+        color: $white;
+        font-family: $font-family-open-sans;
+        font-weight: bold;
+        text-decoration: none;
+      }
+    }
+  }
+
+  .text-yellow {
+    a {
+      color: #ffc000 !important;
+      font-family: $font-family-open-sans;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+
+  .email {
+    font-family: $font-family-calibri;
+    float: right;
+    color: $white;
+    margin-top: -35px;
+    margin-right: 85px;
+    text-align: right;
+    font-size: 0.8rem;
+  }
+
+  .btn-signout {
+    font-family: $font-family-nanum-gothic;
+    float: right;
+    color: $white;
+    background: transparent;
+    border: 1px solid $white;
+    border-radius: 5px;
+    height: 29px;
+    width: 65px;
+    margin-top: -39px;
+    font-size: 0.8rem;
+  }
+
+  .btn-signout:focus {
+    outline: none;
+  }
+  .dropdown {
+    position: absolute;
+    right:  0;
+    top: 8px;
+    background:  transparent;
+    .btn {
+      background: transparent;
+      color: $white;
+      outline: none;
+    }
+    .dropdown-menu {
+      background: #3f3f3f;
+      padding: 0;
+      a {
+        color: $white;
+        padding: 10px;
+        text-align: center;
+        &:hover{
+          background: #595959;
+        }
+      }
+    }
+  }
+}

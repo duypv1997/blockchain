@@ -1,0 +1,129 @@
+#auth {
+  .borderBottom {
+    border-bottom: 1px solid $text_gray;
+  }
+
+  form {
+    width: 48%;
+    margin: auto;
+
+    .form-group {
+      height: 45px;
+      margin-bottom: 1.3rem;
+
+      .label {
+        width: 20%;
+        height: 45px;
+        font-weight: bold;
+        font-size: 1rem;
+        float: left;
+        font-family: $font-family-open-sans;
+
+        .btn-getcode {
+          background-color: #F47A43;
+          width: 100%;
+          margin-top: -0.3rem;
+          font-size: 0.8rem;
+          border: 1px;
+          height: 2.1rem;
+          padding: 0;
+          font-weight: bold;
+          color: $white;
+        }
+      }
+
+      .confirm {
+        line-height: 1.25rem;
+        margin-top: -0.5rem;
+      }
+
+      .input {
+        width: 80%;
+        float: left;
+        margin-top: -0.4rem;
+        .invalid-feedback {
+          margin-top: 17px;
+          text-align: right;
+        }
+        input {
+          border: none;
+          background: transparent;
+          box-shadow: none;
+          font-size: 1rem;
+          font-family: $font-family-open-sans;
+          text-align: right;
+
+          &:focus {
+            border: none;
+            background: transparent;
+            box-shadow: none;
+          }
+        }
+      }
+
+      .select-country {
+        text-align: right;
+
+        select {
+          background: transparent;
+          border: none;
+          font-size: 1rem;
+
+          &:focus {
+            outline: none;
+          }
+        }
+      }
+    }
+
+    .group-button-login {
+      width: 100%;
+      margin: 6.2rem auto 3rem;
+      text-align: center;
+
+      .btn {
+        width: 8.8rem;
+        color: #fff;
+        font-weight: bold;
+        padding: 0.7rem 0;
+        margin: 0 0.3rem;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-family: $font-family-open-sans;
+      }
+
+      .btn-login {
+        background-color: #00AFEB;
+      }
+
+      .btn-signup {
+        background-color: #88D060;
+      }
+    }
+
+    .group-button-register {
+      width: 100%;
+      margin: 3rem auto;
+      text-align: center;
+
+      .btn {
+        width: 10rem;
+        color: #fff;
+        font-weight: bold;
+        padding: 0.7rem 0;
+        margin: 0 0.3rem;
+        border-radius: 5px;
+        font-size: 1rem;
+        font-family: $font-family-open-sans;
+      }
+
+      .btn-login {
+        background-color: #7f7f7f;
+      }
+
+      .btn-signup {
+        background-color: #88D060;
+      }
+    }
+  }
+}

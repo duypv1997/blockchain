@@ -1,0 +1,25 @@
+version: '3'
+services:
+  web:
+    container_name: wbc_wallet
+    build: .
+    ports:
+     - "8989:80"
+    volumes:
+     - .:/var/www/localhost/htdocs
+    links:
+     - db
+     - redis
+  redis:
+    image: "redis:alpine"
+    container_name: wbc_redis
+    ports:
+     - "9769:6379"
+  db:
+    image: "mysql:5.7.22"
+    container_name: wbc_mysql
+    environment:
+     MYSQL_ALLOW_EMPTY_PASSWORD: "yes"
+     MYSQL_DATABASE: "wbc_wallet"
+    ports:
+     - "33308:3306"

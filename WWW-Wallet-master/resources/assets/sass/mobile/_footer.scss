@@ -1,0 +1,39 @@
+footer#footer {
+  background-color: $bg_dark_gray;
+  width: 100%;
+  height: $mobileHeightFooter;
+  position: fixed;
+  z-index: 10;
+  bottom: 0px;
+  ul {
+    position: fixed;
+    z-index: 11;
+    bottom: 0px;
+    padding: 0px;
+    list-style-type: none;
+    width: 100%;
+    margin-bottom: 16px;
+  }
+
+  ul>li {
+    color: #fff;
+    float: left;
+    width: 25%;
+    text-align: center;
+    border-right: 1px solid #595959;
+    a {
+      color: $white;
+      font-size: 0.9rem;
+      text-decoration: none;
+    }
+  }
+
+  .text-yellow {
+    a {
+      color: #ffc000 !important;
+      font-family: $font-family-open-sans;
+      font-weight: bold;
+      text-decoration: none;
+    }
+  }
+}

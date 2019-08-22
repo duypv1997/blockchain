@@ -1,0 +1,26 @@
+{
+  "chainName": "Mainnet",
+  "chainId": 1,
+  "averageBlockTime": 15000,
+  "requiredConfirmation": 7,
+  "startCrawlBlock": 5500000,
+  "explorerEndpoint": "https://etherscan.io",
+  "web3ProviderEnpoint": "https://mainnet.infura.io",
+  "eventTopics": {
+    "erc20Transfer": "0xddf252ad1be2c89b69c2b068fc378daa952ba7f163c4a11628f55a4df523b3ef"
+  },
+  "tokens": [
+    {
+      "symbol": "eth",
+      "name": "Ethereum",
+      "decimal": 18,
+      "address": "0xeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeeee"
+    },
+    {
+      "symbol": "www",
+      "name": "WWW",
+      "decimal": 18,
+      "address": "0x573479DfA0Aa71578cc49850340C88E95848D587"
+    }
+  ]
+}

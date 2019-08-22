@@ -1,0 +1,14 @@
+.no-account{
+  color: $black;
+  margin: 5rem auto 0;
+  text-align: center;
+  .title {
+    h4 {
+      font-size: 0.9rem;
+      &.email {
+        font-size: 2rem;
+        margin-bottom: 0.5em;
+      }
+    }
+  }
+}

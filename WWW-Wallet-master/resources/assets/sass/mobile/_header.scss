@@ -1,0 +1,95 @@
+header#header {
+    background-color: $bg_dark_gray;
+    width: 100%;
+    height: $mobileHeightHeader;
+    z-index: 10;
+  .icon-header {
+    top: 17px;
+    left: 17px;
+    width: 16px;
+    height: 16px;
+    background-image: url("/images/coin_icon.png");
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: left;
+    position: fixed;
+    z-index: 11;
+  }
+
+  .biko-header {
+    top: 12px;
+    left: 40px;
+    font-size: 1rem;
+    position: fixed;
+    z-index: 11;
+    color: #fff;
+    font-weight: bold;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  .title-header {
+    color: #fff;
+    font-size: 1.2rem;
+    position: fixed;
+    z-index: 11;
+    left: 50%;
+    width: 120px;
+    text-align: center;
+    color: white;
+    margin-left: -60px;
+    top: 8px;
+  }
+
+  .btn-header {
+    border: none;
+    background: none;
+    cursor: pointer;
+    height: 50px;
+    width: 50px;
+    position: fixed;
+    z-index: 11;
+    right: 0px;
+  }
+
+  .btn-header:focus {
+    outline: none;
+  }
+
+  .dot {
+    width: 5px;
+    height: 5px;
+    border-radius: 100%;
+    background-color: #fff;
+    position: fixed;
+    z-index: 11;
+    right: 15px;
+  }
+
+  .top {
+    top: 15px;
+  }
+
+  .middle {
+    top: 23px;
+  }
+
+  .bottom {
+    top: 31px;
+  }
+
+  .dropdown-menu {
+    background-color: #595959;
+    border-radius: 0px;
+    padding: 0px;
+  }
+
+  .dropdown-item {
+    text-align: center;
+    border-bottom: 1px solid #696969;
+    padding: 10px 15px 15px;
+  }
+
+  .dropdown-item a {
+    color: #fff;
+  }
+}

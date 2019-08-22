@@ -1,0 +1,248 @@
+
+// Fonts
+@import url("https://fonts.googleapis.com/css?family=Raleway:300,400,600");
+
+// Variables
+@import "../variables";
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+html, body {
+  height: 100%;
+  background-image: url("/images/background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.icon-login {
+  margin-top: 90px;
+  width: 100%;
+  height: 40px;
+  background-image: url("/images/coin_icon.png");
+  background-repeat: no-repeat;
+  background-size: auto 100%;
+  background-position: center; 
+}
+
+.biko-login {
+  color: #fff;
+  font-weight: bold;
+  font-size: 3.3rem;
+  margin-bottom: 0px;
+  line-height: 4.2rem;
+  margin-top: 1rem;
+  font-family: $font-family-open-sans;
+}
+
+.title-login {
+  width: 100%;
+  color: #fff;
+  font-size: 2rem;
+  text-align: center;
+  margin-bottom: 55px;
+  margin-top: -15px;
+}
+
+.title-signup {
+  width: 100%;
+  color: $white;
+  font-size: 1.2rem;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.borderBottom {
+  border-bottom: 1px solid $white;
+}
+
+.input input {
+  border: none;
+  background: transparent;
+  text-align: right;
+  color: #fff;
+}
+
+.input input:focus {
+  color: #fff;
+}
+
+.input input:focus {
+  border: none;
+  background: transparent;
+  box-shadow: none;
+}
+
+.btn-primary {
+  width: 100%;
+  background-color: #976626;
+  border-radius: 0px;
+  font-weight: bold;
+}
+
+.options {
+  float: right;
+}
+
+.options a {
+  margin: 0 5px;
+  color: #686868;
+  font-weight: bold;
+}
+
+.options select {
+  background: transparent;
+  color: #686868;
+  font-weight: bold;
+}
+
+#footer {
+  text-align: center;
+  color: #393939;
+  padding: 30px 0 30px;
+  margin-bottom: 50px;
+}
+
+.btn {
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 0;
+  border-radius: 5px;
+}
+
+.btn-login {
+  width: 48%;
+  margin-right: 4%;
+  background-color: #00AFEB;
+  float: left;
+}
+
+a.btn {
+  outline: none;
+  &.focus {
+    color: $white;
+  }
+}
+
+.btn-signup {
+  width: 48%;
+  background-color: #88D060;
+  float: left;
+}
+.navbar-laravel {
+  background-color: #fff;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+}
+
+.btn-getcode {
+  background-color: #F47A43;
+  width: 100%;
+  margin-bottom: 0.5rem;
+  font-size: 13px;
+  border: 1px;
+  height: 30px;
+  padding: 0;
+  font-weight: bold;
+  color: $white;
+}
+
+.btn-gray {
+  background-color: #7E7E7E;
+}
+
+.select-country select {
+  color: #fff;
+  background: transparent;
+  border: none;
+}
+
+.select-country select option {
+  background: #333;
+}
+
+$lableWidth: 75px;
+$formHeight: 50px;
+
+#app {
+  .content {
+    height: 100%;
+    .container {
+      height: 100%;
+      .justify-content-center {
+        margin: 0 15px;
+        form {
+          width: 100%;
+        }
+        .form-group {
+          width: 100%;
+          height: $formHeight;
+          &.form-button {
+            margin-top: 2rem;
+          }
+          .label {
+            color: $white;
+            width: $lableWidth;
+            font-weight: bold;
+            font-size: 0.8rem;
+            float: left;
+            line-height: $formHeight;
+            &.password {
+              line-height: $formHeight/2;
+            }
+          }
+          .input {
+            width: calc(100% - #{$lableWidth});
+            float: left;
+            height: 100%;
+            input {
+              width: 100%;
+              height: 100%;
+              text-align: right;
+            }
+            .invalid-feedback {
+              text-align: center;
+            }
+          }
+          .select-country {
+            width: calc(100% - #{$lableWidth});
+            float: left;
+            height: 100%;
+            select {
+              width: 100%;
+              height: 100%;
+              text-align-last: right;
+              padding-right: 1rem;
+              outline: none;
+            }
+          }
+        }
+      }
+      .group-button{
+        margin-top: 3rem;
+      }
+      .header_icon {
+        margin: 2rem auto 1rem;
+        display: flex;
+        align-items: center;
+        .biko-register {
+          color: $white;
+          font-weight: bold;
+          font-size: 1.7em;
+          line-height: 0.7em;
+          text-align: center;
+          margin-top: 6px;
+          font-family: $font-family-open-sans;
+          .biko-register-subname {
+            font-size: 0.7em;
+          }
+        }
+        .icon-register {
+          height: 40px;
+          width: 40px;
+          margin-right: 0.5rem;
+        }
+      }
+    }
+  }
+}
+

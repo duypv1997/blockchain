@@ -1,0 +1,22 @@
+.no-account{
+  color: $white;
+  margin: 5rem auto 0;
+  text-align: center;
+  .title {
+    h4 {
+      font-size: 0.9rem;
+      &.email {
+        font-size: 2rem;
+        margin-bottom: 0.5em;
+      }
+    }
+  }
+}
+.ep-key {
+  text-align: center;
+  .email {
+    color: $white;
+    font-size: 1.8rem;
+    margin: 3rem auto;
+  }
+}

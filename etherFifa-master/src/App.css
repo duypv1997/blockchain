@@ -1,0 +1,56 @@
+.card-body {
+  cursor: pointer;
+}
+
+.gameCard {
+  margin-top: 1rem;
+}
+
+/* Scale up the box */
+.gameCard:hover {
+  transform: scale(1.1, 1.1);
+}
+
+/* Fade in the pseudo-element with the bigger shadow */
+.gameCard:hover::after {
+  opacity: 1;
+}
+
+.national-flag {
+  height: 48px;
+  width: 48px;
+}
+
+.card-top-row {
+  display: inline-block;
+  font: bold;
+}
+
+.left-team {
+  display: inline-block;
+  margin: 0 15px 10px 0;
+}
+.vs-text-container {
+  display: inline-block;
+}
+.right-team {
+  display: inline-block;
+  margin: 0 0 10px 15px;
+}
+.game-result-modal-body {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+.flag-container-a {
+  display: inline-block;
+}
+.flag-container-b {
+  display: inline-block;
+}
+footer {
+  margin-bottom: 10px;
+}
+.contact-row {
+  margin-bottom: 50px;
+}

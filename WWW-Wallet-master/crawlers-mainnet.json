@@ -1,0 +1,20 @@
+{
+  "apps" : [
+    {
+      "name"              : "ETH-Crawler-Mainnet",
+      "script"            : "./microservices/crawler.js",
+      "watch"             : false,
+      "env"               : {
+        "MIX_ETH_NETWORK"     : "mainnet"
+      }
+    },
+    {
+      "name"              : "ERC20-Crawler-Mainnet",
+      "script"            : "./microservices/crawler_erc20.js",
+      "watch"             : false,
+      "env"               : {
+        "MIX_ETH_NETWORK"     : "mainnet"
+      }
+    }
+  ]
+}
